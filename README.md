@@ -47,6 +47,7 @@ Your company's front end team has completed a business dashboard requested by ma
 * send back the image value
 
 
+### Run Server
 * start your server with "node index.js" and refresh the client webpage to make sure the data is populating properly. 
 
 
