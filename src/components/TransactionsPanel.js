@@ -1,5 +1,6 @@
 import React from "react";
 import TransactionRow from "./TransactionRow";
+import createData from "../createData";
 
 function TransactionsPanel(props) {
     var transactions = [];
@@ -29,6 +30,26 @@ function TransactionsPanel(props) {
             </div>
             <div className="text-right">
                 <a href="#">View All Transactions <i className="fa fa-arrow-circle-right"></i></a>
+            </div>
+        </div>
+        <div className="panel-heading">
+            <h3 className="panel-title"><i className="fa fa-clock-o fa-fw"></i> Create New</h3>
+        </div>
+        <div className="panel-body">
+            <div className="list-group">
+    
+               Name: <input id="orderDate" />
+               Date: <input id="orderTime"/>
+               Amount: <input id="orderAmount"/>
+               <button onClick={
+                ()=>{
+                    let date = document.getElementById("orderDate").value;
+                    let time = document.getElementById("orderTime").value;
+                    let amount = document.getElementById("orderAmount").value;
+                    createData.order({orderDate:date,orderTime:time,amount});
+                }
+               }>Create</button>
+                 
             </div>
         </div>
     </div>);
