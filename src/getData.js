@@ -30,7 +30,7 @@ module.exports.getData = function(dataRetrieved){
         } ;
 
     function done(d,k){
-        debugger;
+
         routes.pop();
         if(d){data[k] = d;}
         if(routes.length ===0)
