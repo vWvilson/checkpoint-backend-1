@@ -1,5 +1,7 @@
 ### Setup
 * Fork, Clone, npm install, npm start
+* npm start will bring up the web page, it will not start the server
+* you need to start the server manually
 
 
 ### Summary
