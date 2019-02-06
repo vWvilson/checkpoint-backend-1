@@ -8,7 +8,7 @@
 Your company's front end team has completed a business dashboard requested by management. You need to build the data server that will provide the front end client with the data it needs to show.
 
 ### Create a server
-* npm isntall express
+* npm install express
 * server/index.js
 * listen on port 3001
 * connect to your mlab database
