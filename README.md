@@ -1,6 +1,7 @@
 ### Setup
 * Fork, Clone, npm install, npm start
 * npm start will bring up the web page, it will not start the server
+* You will need a database setup in mlab
 * you need to start the server manually
 
 
@@ -8,7 +9,7 @@
 Your company's front end team has completed a business dashboard requested by management. You need to build the data server that will provide the front end client with the data it needs to show.
 
 ### Create a server
-* npm install express
+* npm install express and body-parser
 * server/index.js
 * listen on port 3001
 * connect to your mlab database
@@ -50,7 +51,9 @@ Your company's front end team has completed a business dashboard requested by ma
 
 
 ### Run Server
-* start your server with "node index.js" and refresh the client webpage to make sure the data is populating properly. 
+* Use postman to test that it is working
+* If everything is coded properly, the client webpage should show the data from the server
+* Use the network tab to inspect what http messages are being sent
 
 
 
