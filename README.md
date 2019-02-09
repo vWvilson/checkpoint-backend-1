@@ -3,6 +3,7 @@
 * npm start will bring up the web page, it will not start the server
 * You will need a database setup in mlab
 * you need to start the server manually
+* Use postman to test your server, don't rely on the web page which is just for show.
 
 
 ### Summary
