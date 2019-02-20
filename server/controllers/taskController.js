@@ -9,7 +9,7 @@ exports.list = function list(request, response) {
 exports.create = function create(request, response) {  
   const newTask = new Task({
         task: request.body.task,
-        time: request.body.time})
+        time: request.body.time});
   newTask.save(function (err, tasks) {
     if (err) return console.error(err)        
     return response.json(tasks)
